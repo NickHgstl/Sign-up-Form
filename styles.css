@@ -1,3 +1,93 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    color: yellow;
+    background-color: black;
+    display: flex;
+    width: 40%;
+    justify-content: center;
+  }
+
 #background_image {
-    max-width: 50%;
+    width: 100%;
+    scale: 100%;
+
+}
+
+.website_name_container {
+    display: flex;
+    position: absolute;
+    margin-top: 30%;
+}
+
+#website_name {
+    flex-direction: column;
+    flex: 1;
+    color: firebrick;
+    width: max-content;
+    font-family: 'Norse-Bold';
+    font-size: 60px;
+}
+
+#website_logo {
+    size: 30px;
+    max-height: 60px;
+}
+
+#website_bio_container {
+    display: flex;  
+    flex-direction: column;
+    gap: 100px;
+    max-width: 60%;
+}
+
+#website_bio {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-top: 40px;
+}
+
+h1 {
+    margin: 0
+}
+
+#website_name_background {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    margin-top: 25%;
+    min-height: 120px;
+    max-height: 500px;
+    opacity: 40%;
+}
+
+#login_page {
+    display: flex;
+    flex-direction: row;
+}
+
+
+fieldset {
+    border:1px outset #999;
+    -webkit-box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+    -moz-box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+}
+#fieldset_title {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    width: 200px;
 }
